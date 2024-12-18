@@ -40,8 +40,9 @@
 
 
 steps:
-  - name: 'gcr.io/cloud-builders/bash'
+  - name: 'ubuntu'
     args:
+      - '/bin/bash'
       - '-c'
       - 'echo "Hello, World"'
 
